@@ -8,6 +8,14 @@ module.exports = function(grunt) {
           config: './server/model-config',
           method: 'autoupdate'
         }
+      },
+      'system_autoupdate': {
+        options: {
+          dataSource: 'system',
+          app: './server/server',
+          config: './server/model-config',
+          method: 'autoupdate'
+        }
       }
     }
   });

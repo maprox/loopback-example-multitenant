@@ -1,6 +1,5 @@
 var loopback = require('loopback');
 var boot = require('loopback-boot');
-var tenant = require('../tenant');
 
 var app = module.exports = loopback();
 

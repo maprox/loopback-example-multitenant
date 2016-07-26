@@ -1,0 +1,20 @@
+{
+  "tenant1": {
+    "db": {
+      "name": "db",
+      "connector": "postgresql",
+      "database": "demo1",
+      "user": "demo",
+      "password": "demo"
+    }
+  },
+  "tenant2": {
+    "db": {
+      "name": "db",
+      "connector": "postgresql",
+      "database": "demo2",
+      "user": "demo",
+      "password": "demo"
+    }
+  }
+}

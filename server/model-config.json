@@ -29,5 +29,9 @@
   "tweet": {
     "dataSource": "db",
     "public": true
+  },
+  "tenant": {
+    "dataSource": "system",
+    "public": false
   }
 }

@@ -2,6 +2,15 @@
   "db": {
     "name": "db",
     "connector": "postgresql",
-    "database": "demo"
+    "database": "demo",
+    "user": "demo",
+    "password": "demo"
+  },
+  "system": {
+    "name": "system",
+    "connector": "postgresql",
+    "database": "system",
+    "user": "demo",
+    "password": "demo"
   }
 }
